@@ -64,3 +64,20 @@
     }
 }
 
+@media screen and (max-width: 408px){
+    .h2 {
+        font-size: 1.75em;
+    }
+    .test-question {
+        font-size: 0.625em;
+    }
+    #photo-albom .galeri {
+        height: 170px;
+    }
+    #photo-albom .photo {
+        padding: 20px 20px;
+    }
+    .flag{
+        height: 70px;
+    }
+}
