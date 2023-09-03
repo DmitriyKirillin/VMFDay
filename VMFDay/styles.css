@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Golos Text', sans-serif;
+
+}
+
+body {
+    background: #C8F7F7;
+    font-size: 16px;
+    color: #1F1F1F;
+}
+
+#container-fluid {
+    width: 100%;
+}
+
+#container {
+    max-width: 1140px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 2.75em;
+    text-shadow: 3px 1px 1px #919191;
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    height: 125px;
+}
+
+.menu {
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #000F66;
+    width: 145px;
+    text-align: center;
+}
+
+.menu:hover {
+    background: #ECFA9D;
+    border-radius: 30px;
+}
+
+
+.menu span {
+    font-size: 1.25em;
+    flex-wrap: wrap;
+}
+
+.menu i {
+    display: block;
+    font-size: 2.2em;
+    margin-bottom: 5px;
+}
+
+#main {
+    margin: 60px 50px;
+}
+
+#history {
+    background: #BAE6E6;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.history-header {
+    display: flex;
+    position: relative;
+    height: 150px;
+}
+
+.h2 {
+    font-size: 2em;
+    margin: auto 160px;
+}
+
+.flag {
+    height: 100px;
+    margin: auto 0;
+}
+
+.history-txt {
+    font-size: 1.125em;
+}
+
+.h3 {
+    margin: 20px 20px;
+    color: #212136;
+}
+
+
+#history .history-txt span, #ours-celebrate .celebrate-txt span{
+    margin-left: 20px;
+}
+
+#test {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    background: #BAE6E6;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.test-p {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.25em;
+}
+
+.test-question {
+    background: #5075C7;
+    max-width: 800px;
+    height: 300px;
+    margin: 20px 20px;
+    
+    border-radius: 30px;
+    border: 2px solid #44519E;
+
+    font-size: 1.25em;
+    padding: 18px 12px;
+    
+}
+
+.variant {
+    margin-top: 18px;
+}
+
+#test .test-question .question {
+    font-weight: 600;
+}
+
+#test .test-question .variant-text {
+    font-size: 1.125em;
+    cursor: pointer;
+}
+
+#test .test-question input[type="radio"] {
+    display: none;
+}
+
+#test .test-question .fake {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #DCD4FF;
+    position: relative;
+    cursor: pointer;
+}
+
+#test .test-question .fake::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #9F72F2;
+    border-radius: 50%;
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .2s;
+}
+
+#test .test-question input[type="radio"]:checked + .fake::before {
+    opacity: 1;
+}
+
+#test .test-question input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+
+    border: none;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 15px;
+    background: #CFADDE;
+}
+
+#test .test-question input[type="submit"]:hover {
+    cursor: pointer;
+    background: #AF8AB5;
+}
+
+#ours-celebrate {
+    margin-bottom: 80px;
+    background: #BAE6E6;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.celebrate-txt {
+    font-size: 1.25em;
+}
+
+.albom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#photo-albom .photo {
+    padding: 40px 40px;
+}
+
+#photo-albom .galeri {
+    border-radius: 10px;
+    height: 600px;
+    box-shadow: 10px 5px 5px gray;
+}
+
+#photo-albom a:hover {
+    cursor: alias;
+}
+
+#photo-albom .video h3{
+    text-align: center;
+    padding: 30px 0;
+}
+
+#photo-albom video {
+    height: 500px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background: #7EA3A3;
+    border-top: 1px silver solid;
+    height: 120px;
+    padding: 10px 20px;
+}
+
+footer p {
+    max-width: 760px;
+    border-bottom: 1px solid #4B6363;
+}
