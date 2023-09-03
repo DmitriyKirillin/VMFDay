@@ -1,0 +1,66 @@
+@media screen and (max-width: 968px) {
+    #photo-albom video {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    #photo-albom .galeri {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 851px) {
+    .menu i {
+        font-size: 1.5em;
+    }
+    .menu span {
+        font-size: 1em;
+    }
+    .menu {
+        width: 80px;
+    }
+    nav {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 727px) {
+    .h2 {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 663px) {
+    #photo-albom .galeri {
+        height: 250px;
+    }
+    #photo-albom video {
+        height: 150px;
+    }
+    .test-question {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 591px) {
+    nav {
+        flex-wrap: wrap;
+    }
+    #container {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 553px){
+    footer {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 463px){
+    #photo-albom .galeri {
+        height: 200px;
+    }
+}
+
