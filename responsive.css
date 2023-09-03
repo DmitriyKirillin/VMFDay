@@ -81,3 +81,9 @@
         height: 70px;
     }
 }
+
+@media screen and (max-width: 357px) {
+    body {
+        font-size: 0.75em;
+    }
+}
